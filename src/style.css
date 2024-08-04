@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: 1s all ease;
+	position: relative;
+	height: 100vh;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
